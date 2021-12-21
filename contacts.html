@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Contacts</title>
+	<style>
+		tr,th,td{
+			border: 1px solid black;
+		}
+	</style>
+</head>
+<body>
+<h1>Welcome</h1>
+
+<table>
+	<tr>
+		<th>First Name</th>
+		<th>Last Name</th>
+		<!-- or can use rowspan -->
+		<th colspan="2">Phone Number</th>
+	</tr>
+	<tr>
+		<td>Pradip</td>
+		<td>Panta</td>
+		<td>898</td>
+		<td>898</td>
+
+	</tr>
+		<tr>
+		<td>Pradip</td>
+		<td>Panta</td>
+		<td>898</td>
+	</tr>
+		<tr>
+		<td>Pradip</td>
+		<td>Panta</td>
+		<td>898</td>
+	</tr>
+		<tr>
+		<td>Pradip</td>
+		<td>Panta</td>
+		<td>898</td>
+	</tr>
+		<tr>
+		<td>Pradip</td>
+		<td>Panta</td>
+		<td>898</td>
+	</tr>
+</table>
+<h2>Contact me</h2>
+<form>
+	<fieldset>
+		<legend>Please Enter Your Details</legend>
+	<label>Full Name:</label>
+	<input type="text" name="fullname" placeholder="Enter Full Name"><br>
+	<br>
+	<label>Password:</label>
+	<input type="password" name="password">
+	<label>Contact Number:</label>
+	<input type="number" name="phoneNumber">
+		<br>
+		<label>Gender</label>
+		<input type="radio" name="gender">Male
+		<input type="radio" name="gender">Female
+		<input type="radio" name="gender">Other
+		<br>
+		<label>Country?</label>
+		<select>
+			<option>Nepal</option>
+			<option>China</option>
+			<option>India</option>
+		</select>
+		<br>
+		<label>Your Interest</label>
+		<input type="checkbox" name="playing">Play
+		<input type="checkbox" name="dancing">Dance
+		<input type="checkbox" name="acting">Acting
+		<br>
+		<label>Message:</label>
+		<textarea></textarea>
+		<br>
+		<input type="submit" name="submit">
+	</fieldset>
+</form>
+</body>
+</html>
